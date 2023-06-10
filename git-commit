@@ -2,5 +2,5 @@
 git add .
 echo "Enter Your Commit Message: "
 read my_commit_msg
-git commit -m "${my_git_commit}/n"
+git commit -m "${my_git_commit}\n"
 git push
