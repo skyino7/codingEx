@@ -1,0 +1,22 @@
+Pointers:
+Pointers(pointer variables) are special variables that are used to store addresses rather than values.
+
+Pointer Syntax:
+int *p;
+int* p;
+
+p has been declared as pointer type of int(integer).
+
+Some ways of declaring pointers:
+int *p1;
+int * p2
+
+Examples of Declaring Pointers:
+int* p1, p2;
+
+Assigning Addresses to Pointers:
+int *p, s;
+s = 10;
+p = &s;
+
+Here we can see above that 5 is assigned to s variable and the address of s is assigned to the p pointer;
