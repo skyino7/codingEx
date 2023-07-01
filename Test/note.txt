@@ -19,4 +19,4 @@ int *p, s;
 s = 10;
 p = &s;
 
-Here we can see above that 5 is assigned to s variable and the address of s is assigned to the p pointer;
+Here we can see above that '5' is assigned to 's' variable and the address of 's' is assigned to the 'p' pointer;
