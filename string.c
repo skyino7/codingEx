@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 int stringlen(char *s)
@@ -15,14 +16,41 @@ int stringlen(char *s)
 
 int main(void)
 {
-	char *s = "Hello ALX Africa!";
-	int strCont;
-	
-	//strCont = strlen(s);
-	strCont = stringlen(s);
+	char *s = "Having Issues With The Scanf, Can't count the Inputs";
 
-	printf("%s\n", s);
-	printf("%d\n", strCont);
+	int u;
+	
+
+	//scanf("%s",s);
+
+	//s = malloc(sizeof(char *) + 1);
+
+	/*if (s == NULL)
+	{
+		printf("Allocation Failed");
+	}
+	else
+	{
+		printf("Allocation Success");
+	}*/
+
+	//printf("%s\n", s);
+
+	int strCont = 0;
+	
+	if (s == NULL)
+	{
+		return (-1);
+	}
+	else
+	{
+		//printf("%s", s);
+		//strCont = strlen(s);
+		strCont = stringlen(s);
+
+		printf("%s\n", s);
+		printf("%d\n", strCont);
+	}
 
 	return (0);
 }
